@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#conteiner {
+display: flex;
+flex-flow:  nowrap;
+justify-content: space-between ;
+padding: 250px;
+ background-color: aqua;
+}
+
+
+.filho {
+padding: 50px;
+background-color: white;
+box-shadow: 0 0 0px 20px black;
+}
