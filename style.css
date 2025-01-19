@@ -1,0 +1,21 @@
+ @charset "UTF-8";
+
+ * {
+       margin: 0;
+       padding: 0;
+       font-family: Arial, Helvetica, sans-serif;
+ }
+
+ html {
+    background-color:#F294D9 ;
+ }
+
+ body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagens/fundo-brilhante-rosa-elemento-grande-de-banner-e-167001055.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+ }
