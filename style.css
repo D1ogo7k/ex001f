@@ -11,11 +11,69 @@
  }
 
  body {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(imagens/fundo-brilhante-rosa-elemento-grande-de-banner-e-167001055.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(rgb(194, 2, 120), rgb(0, 0, 0));
+
 
  }
+ header {
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(rgb(0, 0, 0), rgb(173, 0, 107))
+
+ }
+ #logo {
+ width: 120px;
+ height: 120px;
+ border-radius:20% ;
+ box-shadow: 1px 1px 1px rgb(255, 255, 255) ;
+ }
+main {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.prlx {
+   background-image: url(imagens/);
+ width: 80vw;  
+ height: 120vh;
+ background-color: white;
+ background-image: url(imagens/cidade.avif);
+ background-position: center;
+ background-size: cover;
+}
+.vazia {
+   background-image: url(imagens/lago-encatado.jpg);
+   background-position: center;
+   background-size: cover;
+   width: 80vw;  
+   height: 120vh;
+   background-color: rgb(219, 0, 0);
+}
+
+img#sereia{
+   width: 140px;
+   height: 180px;
+}
+
+#bdog {
+   width: 140px;
+   height: 180px;
+
+}
+#bformatura{
+background-image: url(imagens/jantar-bailer-formatura.jpg);
+}
+#bbfly {
+   width: 140px;
+   height: 180px;
+}
+#bfly{
+   background-image: url(imagens/bbfly-fundo.jpg);
+}
